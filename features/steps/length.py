@@ -29,7 +29,6 @@ def step_impl(context):
 
 @when(u'their lengths are equal')
 def step_impl(context):
-    print("CHUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUj", context.inputs)
     context.result = (len(context.inputs[0]) == len(context.inputs[1]) and len(context.inputs[1]) == len(context.inputs[2]))
 
 @then(u'returns True')
